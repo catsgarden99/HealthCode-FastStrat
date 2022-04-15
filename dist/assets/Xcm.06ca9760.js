@@ -1,0 +1,1 @@
+import{_ as c,N as s,O as t,T as _,U as a,V as o}from"./index.95ecd4dd.js";const r={},d=e=>(_("data-v-0159bd0c"),e=e(),a(),e),n={class:"wrap"},p=d(()=>o("iframe",{class:"webview",src:"https://xc.caict.ac.cn/#/result"},null,-1)),i=[p];function l(e,u){return s(),t("div",n,i)}var f=c(r,[["render",l],["__scopeId","data-v-0159bd0c"]]);export{f as default};
