@@ -7,6 +7,11 @@
   "resolved" "https://registry.npmjs.org/@babel/parser/-/parser-7.17.9.tgz"
   "version" "7.17.9"
 
+"@babel/standalone@^7.17.9":
+  "integrity" "sha512-9wL9AtDlga8avxUrBvQJmhUtJWrelsUL0uV+TcP+49Sb6Pj8/bNIzQzU4dDp0NAPOvnZR/7msFIKsKoCl/W1/w=="
+  "resolved" "https://registry.npmjs.org/@babel/standalone/-/standalone-7.17.9.tgz"
+  "version" "7.17.9"
+
 "@popperjs/core@^2.9.2":
   "integrity" "sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw=="
   "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.11.5.tgz"
@@ -48,6 +53,17 @@
   "integrity" "sha512-3z+nywPaV2F5BdJO7RQxWlgfzJeEOmViD2yHMb7Tg+R4NR/7iQskqW8v2Cnv9FWSJgTOSHlcr7UzeLpiTAP4HA=="
   "resolved" "https://registry.npmjs.org/@vant/use/-/use-1.3.6.tgz"
   "version" "1.3.6"
+
+"@vitejs/plugin-legacy@^1.8.1":
+  "integrity" "sha512-kmBWKq7EeNvzS4AqPBqUKdoWG/NYQXh7StUFMWR3D21aN5Mfmar7CTO2a7K+bBxJH/vAL9gnnueA0wb7cycCmQ=="
+  "resolved" "https://registry.npmjs.org/@vitejs/plugin-legacy/-/plugin-legacy-1.8.1.tgz"
+  "version" "1.8.1"
+  dependencies:
+    "@babel/standalone" "^7.17.9"
+    "core-js" "^3.21.1"
+    "magic-string" "^0.26.1"
+    "regenerator-runtime" "^0.13.9"
+    "systemjs" "^6.12.1"
 
 "@vitejs/plugin-vue@^2.0.0":
   "integrity" "sha512-YNzBt8+jt6bSwpt7LP890U1UcTOIZZxfpE5WOJ638PNxSEKOqAi0+FSKS0nVeukfdZ0Ai/H7AFd6k3hayfGZqQ=="
@@ -195,6 +211,11 @@
     "tslib" "^2.0.3"
     "upper-case" "^2.0.2"
 
+"core-js@^3.21.1":
+  "integrity" "sha512-8h9jBweRjMiY+ORO7bdWSeWfHhLPO7whobj7Z2Bl0IDo00C228EdGgH7FE4jGumbEjzcFfkfW8bXgdkEDhnwHQ=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.22.0.tgz"
+  "version" "3.22.0"
+
 "csstype@^2.6.8":
   "integrity" "sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA=="
   "resolved" "https://registry.npmjs.org/csstype/-/csstype-2.6.20.tgz"
@@ -325,6 +346,13 @@
   dependencies:
     "sourcemap-codec" "^1.4.8"
 
+"magic-string@^0.26.1":
+  "integrity" "sha512-ndThHmvgtieXe8J/VGPjG+Apu7v7ItcD5mhEIvOscWjPF/ccOiLxHaSuCAS2G+3x4GKsAbT8u7zdyamupui8Tg=="
+  "resolved" "https://registry.npmjs.org/magic-string/-/magic-string-0.26.1.tgz"
+  "version" "0.26.1"
+  dependencies:
+    "sourcemap-codec" "^1.4.8"
+
 "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
@@ -391,6 +419,11 @@
     "picocolors" "^1.0.0"
     "source-map-js" "^1.0.2"
 
+"regenerator-runtime@^0.13.9":
+  "integrity" "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA=="
+  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+  "version" "0.13.9"
+
 "resolve@^1.22.0":
   "integrity" "sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw=="
   "resolved" "https://registry.npmjs.org/resolve/-/resolve-1.22.0.tgz"
@@ -449,6 +482,11 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
+"systemjs@^6.12.1":
+  "integrity" "sha512-hqTN6kW+pN6/qro6G9OZ7ceDQOcYno020zBQKpZQLsJhYTDMCMNfXi/Y8duF5iW+4WWZr42ry0MMkcRGpbwG2A=="
+  "resolved" "https://registry.npmjs.org/systemjs/-/systemjs-6.12.1.tgz"
+  "version" "6.12.1"
+
 "tslib@^2.0.3":
   "integrity" "sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
@@ -494,7 +532,7 @@
     "fs-extra" "^10.0.0"
     "magic-string" "^0.25.7"
 
-"vite@^2.5.10", "vite@^2.7.2", "vite@>=2.0.0":
+"vite@^2.5.10", "vite@^2.7.2", "vite@^2.8.0", "vite@>=2.0.0":
   "integrity" "sha512-dvMN64X2YEQgSXF1lYabKXw3BbN6e+BL67+P3Vy4MacnY+UzT1AfkHiioFSi9+uiDUiaDy7Ax/LQqivk6orilg=="
   "resolved" "https://registry.npmjs.org/vite/-/vite-2.9.5.tgz"
   "version" "2.9.5"
